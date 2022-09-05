@@ -7,6 +7,7 @@
 :root{
   --first-color: #FF9B85;
   --second-color: #ffffff;
+  /* --third-color: #fff */
 }
 
 :root{
@@ -311,8 +312,10 @@ textarea{
   margin: auto;
 }
 .footer{
-  background-color: var(--second-color);
-  color: #0D1F2D;
+  /* background-color: var(--first-color); */
+  color: #71b5e9;
+  background-color: var(color);
+  color: #d8dce1;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -326,7 +329,7 @@ textarea{
 }
 .footer__icon{
   font-size: 1.5rem;
-  color: #0D1F2D;
+  color: #edf0f3;
   margin: 0 var(--mb-2)
 }
 @media screen and (min-width: 768px){
